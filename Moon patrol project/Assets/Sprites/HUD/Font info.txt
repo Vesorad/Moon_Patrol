@@ -1,0 +1,4 @@
+Czcionka kolor biały. Rozmiar 9 dla liczników
+Czcionka załączona w zestawie
+
+Kolor czcionki dla zestrzelonych obiektów- #c64b4b

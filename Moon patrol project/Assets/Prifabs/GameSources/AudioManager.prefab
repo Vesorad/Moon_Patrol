@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3496699259423516290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3496699259423516540}
+  - component: {fileID: 3496699259423516541}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3496699259423516540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3496699259423516290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3496699259423516541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3496699259423516290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b45fb3250d5c064199c7a0d7f28b783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMixer: {fileID: 24100000, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+  sounds:
+  - name: BMG
+    clip: {fileID: 8300000, guid: 92c92c78f5f190d45a5b0dc84e80bdb1, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 1
+    valume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: Start
+    clip: {fileID: 8300000, guid: a659b2bac1b734d46b29fae110deb28d, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: e06a501b22e617448a0c96ebbdc29173, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 0.261
+    pitch: 1
+    source: {fileID: 0}
+  - name: Dead
+    clip: {fileID: 8300000, guid: bc2029a8aa0238542936b9fd43536b29, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 0.261
+    pitch: 1
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 49dcebc9fdc49a2478d8bfdea4b61086, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: StartButton
+    clip: {fileID: 8300000, guid: b40548c93a9cbbc43a75b706c7d26d1e, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 9d8c7e8bef2187e408e0a9d3521fe054, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: Wave
+    clip: {fileID: 8300000, guid: 6d763983053e14945b093bc4263e2b7b, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 1
+    valume: 0.11
+    pitch: 1
+    source: {fileID: 0}
+  - name: PointsPanel
+    clip: {fileID: 8300000, guid: 9dfe441c723f22945bcea9bbcc95e6b8, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Bonus
+    clip: {fileID: 8300000, guid: 6139a20c867fa76449fea2976d080c25, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyDead
+    clip: {fileID: 8300000, guid: 7ceff1820d2a46d4eabfe67746012e66, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 0.146
+    pitch: 1
+    source: {fileID: 0}
+  - name: Rock
+    clip: {fileID: 8300000, guid: c9aa59f73fd2e8d4ba61aea23bfa323c, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 0.164
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyMissle
+    clip: {fileID: 8300000, guid: 1c80a630fbf9c854c9472e5d197bc20c, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 0
+    valume: 0.218
+    pitch: 1
+    source: {fileID: 0}
+  - name: Menu
+    clip: {fileID: 8300000, guid: b72a672d07730434cad479088ac8cf66, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 1cdce3f4796fbe54e910e4851287211b, type: 2}
+    loop: 1
+    valume: 0.793
+    pitch: 1
+    source: {fileID: 0}
